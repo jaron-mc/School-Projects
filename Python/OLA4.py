@@ -26,7 +26,7 @@ def d():
     while True:
         deposit = float(input("Deposit amount must be positive. Enter the deposit amount: "))
         if deposit > 0:
-            balance = balance + deposit
+            balance += deposit
             print(f"You deposited ${deposit:,.2f}. Your new balance is ${balance:,.2f}")
             main()
             break
